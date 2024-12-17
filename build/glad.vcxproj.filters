@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\src\gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C52E38F4-465A-31F1-836D-F91260356ABC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

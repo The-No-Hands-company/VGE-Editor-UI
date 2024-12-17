@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\WINDSURF\THE-NO-HANDS-COMPANY\PROJECTS\PLAYGROUND\UI\THIRDPARTY\FREETYPE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI -BD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build --check-stamp-file D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build/ThirdParty/freetype/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

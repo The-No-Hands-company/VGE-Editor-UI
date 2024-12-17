@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Framework\Private\dummy.cpp">
+      <Filter>Runtime\Framework\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Runtime">
+      <UniqueIdentifier>{69668E50-DD50-37B0-9075-6377B994C1BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Framework">
+      <UniqueIdentifier>{C8B78B7E-C6D6-357D-BF70-184F8DBFF67E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Framework\Private">
+      <UniqueIdentifier>{9AC00433-1DBC-35F1-B455-D3BC6F2C0D60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

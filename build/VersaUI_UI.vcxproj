@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9977362-1EDE-3340-8AB6-9868C43411F3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>VersaUI_UI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VersaUI_UI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VersaUI_UI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VersaUI_UI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VersaUI_UI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VersaUI_UI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VersaUI_UI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VersaUI_UI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VersaUI_UI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PLATFORM_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLATFORM_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glad\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\freetype\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\glm;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\json\include;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI -BD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build --check-stamp-file D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI -BD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build --check-stamp-file D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI -BD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build --check-stamp-file D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI -BD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build --check-stamp-file D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIButton.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIColorPicker.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBox.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxAnimation.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxAnimator.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxBase.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxKeyboard.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxRenderer.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UICommandPalette.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIDialog.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIMenu.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIMenuBar.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIPanel.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIScrollView.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UISlider.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITabControl.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITabManager.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIText.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITextInput.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIToolbar.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITreeView.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIWindow.cpp">
+      <ObjectFileName>$(IntDir)/Source/Runtime/UI/Private/Controls/UIWindow.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Docking\UIDockPreview.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Docking\UIDockSpace.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Docking\UIDockingManager.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Layout\UILayoutSerializer.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Property\UIPropertyGrid.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Property\UIPropertyUndo.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Theme\UIThemes.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Window\UIWindow.cpp">
+      <ObjectFileName>$(IntDir)/Source/Runtime/UI/Private/Window/UIWindow.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Window\UIWindowDecorations.cpp" />
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Window\UIWindowManager.cpp" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIButton.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIColorPicker.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBox.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxAnimation.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxAnimator.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxBase.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxKeyboard.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxRenderer.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxStyle.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UICommandPalette.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIMenu.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIMenuBar.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIPanel.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIPropertyGrid.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIScrollView.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UISlider.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITabControl.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITabManager.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITabSystem.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIText.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITextInput.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIToolbar.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITreeView.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockPreview.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockSpace.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockZone.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockingManager.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Interfaces\IUIEventHandler.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Interfaces\IUILayoutable.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Interfaces\IUIRenderable.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout\UILayoutSerializer.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property\UIPropertyUndo.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property\UIPropertyValidator.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme\UIStyle.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window\UIWindow.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window\UIWindowDecorations.h" />
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window\UIWindowManager.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ZERO_CHECK.vcxproj">
+      <Project>{6C6FCBEA-3BCD-34AE-B49E-8AF962ED94A5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\VersaUI_Core.vcxproj">
+      <Project>{552E209E-7AAA-3D82-A9D9-84D4553320B7}</Project>
+      <Name>VersaUI_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\VersaUI_Framework.vcxproj">
+      <Project>{869A9D62-5F60-3AE4-9669-ED9DF50DFB6A}</Project>
+      <Name>VersaUI_Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\freetype\freetype.vcxproj">
+      <Project>{6A808F69-CF52-3C6D-A683-E86D33779E07}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\glad.vcxproj">
+      <Project>{C26757C2-5294-3844-9BA4-EA6DF96A41ED}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\GLFW\glfw-3.3.8\src\glfw.vcxproj">
+      <Project>{98E8F621-8759-3D7F-BD0F-DF298081A944}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

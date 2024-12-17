@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\312c3a06fb841068e37ecdf1465fb59e\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{12DE1C82-5562-373D-B64E-C0BA2225D6CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

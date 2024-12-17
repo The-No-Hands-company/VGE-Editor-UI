@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\WINDSURF\THE-NO-HANDS-COMPANY\PROJECTS\PLAYGROUND\UI\BUILD\CMAKEFILES\B8A00449908F43B2DC984992BD87A503\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI -BD:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Documents/Windsurf/The-No-hands-Company/projects/Playground/UI/build/VersaUI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

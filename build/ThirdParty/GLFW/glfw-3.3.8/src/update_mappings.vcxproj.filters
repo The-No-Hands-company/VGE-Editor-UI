@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\CMakeFiles\e7730bd9a0e89c1cb48bc19b5ea14c76\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\ThirdParty\GLFW\glfw-3.3.8\CMake\GenerateMappings.cmake" />
+    <None Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\build\ThirdParty\GLFW\glfw-3.3.8\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{12DE1C82-5562-373D-B64E-C0BA2225D6CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3B9BFE41-262A-3D06-81DD-7584CC78271F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\AboutDialog.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\AssetBrowserPanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\ConsolePanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\EditorLayer.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\EditorLayout.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\EditorPanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\EditorUI.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\GameViewPanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\PropertiesPanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\SceneHierarchyPanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Editor\VersaEditor\Private\ViewportPanel.cpp">
+      <Filter>Editor\VersaEditor\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{BC5BB03A-B123-3460-B6D7-E453BFCC24D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\VersaEditor">
+      <UniqueIdentifier>{8A934034-C203-36FE-95D7-F56B913B6D4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\VersaEditor\Private">
+      <UniqueIdentifier>{80A4338B-9E48-36B3-BE34-8C410E7C8196}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

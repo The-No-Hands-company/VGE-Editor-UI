@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIButton.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIColorPicker.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBox.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxAnimation.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxAnimator.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxBase.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxKeyboard.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIComboBoxRenderer.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UICommandPalette.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIDialog.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIMenu.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIMenuBar.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIPanel.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIScrollView.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UISlider.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITabControl.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITabManager.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIText.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITextInput.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIToolbar.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UITreeView.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Controls\UIWindow.cpp">
+      <Filter>Runtime\UI\Private\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Docking\UIDockPreview.cpp">
+      <Filter>Runtime\UI\Private\Docking</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Docking\UIDockSpace.cpp">
+      <Filter>Runtime\UI\Private\Docking</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Docking\UIDockingManager.cpp">
+      <Filter>Runtime\UI\Private\Docking</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Layout\UILayoutSerializer.cpp">
+      <Filter>Runtime\UI\Private\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Property\UIPropertyGrid.cpp">
+      <Filter>Runtime\UI\Private\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Property\UIPropertyUndo.cpp">
+      <Filter>Runtime\UI\Private\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Theme\UIThemes.cpp">
+      <Filter>Runtime\UI\Private\Theme</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Window\UIWindow.cpp">
+      <Filter>Runtime\UI\Private\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Window\UIWindowDecorations.cpp">
+      <Filter>Runtime\UI\Private\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Private\Window\UIWindowManager.cpp">
+      <Filter>Runtime\UI\Private\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIButton.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIColorPicker.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBox.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxAnimation.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxAnimator.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxBase.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxKeyboard.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxRenderer.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIComboBoxStyle.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UICommandPalette.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIMenu.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIMenuBar.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIPanel.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIPropertyGrid.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIScrollView.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UISlider.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITabControl.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITabManager.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITabSystem.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIText.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITextInput.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UIToolbar.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Controls\UITreeView.h">
+      <Filter>Runtime\UI\Public\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockPreview.h">
+      <Filter>Runtime\UI\Public\Docking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockSpace.h">
+      <Filter>Runtime\UI\Public\Docking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockZone.h">
+      <Filter>Runtime\UI\Public\Docking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Docking\UIDockingManager.h">
+      <Filter>Runtime\UI\Public\Docking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Interfaces\IUIEventHandler.h">
+      <Filter>Runtime\UI\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Interfaces\IUILayoutable.h">
+      <Filter>Runtime\UI\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Interfaces\IUIRenderable.h">
+      <Filter>Runtime\UI\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Layout\UILayoutSerializer.h">
+      <Filter>Runtime\UI\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property\UIPropertyUndo.h">
+      <Filter>Runtime\UI\Public\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Property\UIPropertyValidator.h">
+      <Filter>Runtime\UI\Public\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Theme\UIStyle.h">
+      <Filter>Runtime\UI\Public\Theme</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window\UIWindow.h">
+      <Filter>Runtime\UI\Public\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window\UIWindowDecorations.h">
+      <Filter>Runtime\UI\Public\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\UI\Public\Window\UIWindowManager.h">
+      <Filter>Runtime\UI\Public\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Runtime">
+      <UniqueIdentifier>{69668E50-DD50-37B0-9075-6377B994C1BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI">
+      <UniqueIdentifier>{C019865F-0367-3011-8BBF-884839FC585B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private">
+      <UniqueIdentifier>{1D1B84F9-3598-3269-9642-A14F497F5116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private\Controls">
+      <UniqueIdentifier>{B033B849-461B-34E8-8461-C1AE149D47BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private\Docking">
+      <UniqueIdentifier>{C79B1043-0CBD-3C64-9365-5BA08AB1C04E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private\Layout">
+      <UniqueIdentifier>{6E220606-1D8C-317D-AA2E-FE0F728B3C96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private\Property">
+      <UniqueIdentifier>{62953485-E017-3910-BA93-00901D31911F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private\Theme">
+      <UniqueIdentifier>{682B57A8-B8A5-37B4-B224-734AD2F91635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Private\Window">
+      <UniqueIdentifier>{42ABD448-22F3-33A2-8E2D-C55F010070C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public">
+      <UniqueIdentifier>{FFFF2138-545F-393D-B01D-650D3296C60F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Controls">
+      <UniqueIdentifier>{215A399B-BEDE-3FCD-A7CF-96894A7D3852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Docking">
+      <UniqueIdentifier>{05B7F742-A976-34C3-BF6B-5494A76E2A97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Interfaces">
+      <UniqueIdentifier>{0815D4E3-ADC9-353A-A3BD-3DC4D1AF672F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Layout">
+      <UniqueIdentifier>{E1D5A0E8-9BE8-3389-BC20-5F673332E221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Property">
+      <UniqueIdentifier>{EE0228F5-149E-307E-A4F8-8F6BF3369806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Theme">
+      <UniqueIdentifier>{B008AAAF-FB3F-3C02-BC6C-78D3C5616D1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\UI\Public\Window">
+      <UniqueIdentifier>{CF913C13-AA65-3CD2-BF34-D4DEB2FDCC4A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

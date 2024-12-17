@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Application.cpp">
+      <Filter>Runtime\Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Core\UICore.cpp">
+      <Filter>Runtime\Core\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Input\UIInput.cpp">
+      <Filter>Runtime\Core\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Layout\UIHorizontalLayout.cpp">
+      <Filter>Runtime\Core\Private\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Layout\UILayoutManager.cpp">
+      <Filter>Runtime\Core\Private\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Layout\UILayoutPresetManager.cpp">
+      <Filter>Runtime\Core\Private\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Layout\UIVerticalLayout.cpp">
+      <Filter>Runtime\Core\Private\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Platform\GLFW\GLFWPlatformWindow.cpp">
+      <Filter>Runtime\Core\Private\Platform\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Platform\UIPlatform.cpp">
+      <Filter>Runtime\Core\Private\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Platform\UIWindow.cpp">
+      <Filter>Runtime\Core\Private\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\FontRenderer.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\Shader.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\ShaderSources.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIBuffer.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIFontRenderer.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIIndexBuffer.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIRenderContext.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIRenderPrimitives.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIRenderTarget.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIRenderer.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIShader.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIShaderManager.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIStbImage.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UITexture.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIVertexArray.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Renderer\UIVertexBuffer.cpp">
+      <Filter>Runtime\Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIContainer.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIDockingManager.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIMenu.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIMenuBar.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UISlot.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIStyle.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIWidget.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Widget\UIWindowManager.cpp">
+      <Filter>Runtime\Core\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Private\Window.cpp">
+      <Filter>Runtime\Core\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Base\VGE.h">
+      <Filter>Runtime\Core\Public\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\Application.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\IUIRenderable.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\Logger.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\UICore.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\UIForward.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\UIObject.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\UIRenderableBase.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\UISystem.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Core\UITypes.h">
+      <Filter>Runtime\Core\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\IUIEventHandler.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\UIDragDropManager.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\UIEvent.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\UIEventHandlerBase.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\UIEventManager.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\UIEvents.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Events\UIInputManager.h">
+      <Filter>Runtime\Core\Public\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Input\UIInput.h">
+      <Filter>Runtime\Core\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\IUILayoutable.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UIGeometry.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UIHorizontalLayout.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UILayout.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UILayoutConstraints.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UILayoutManager.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UILayoutPresetManager.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UILayoutSerializer.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UILayoutableBase.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Layout\UIVerticalLayout.h">
+      <Filter>Runtime\Core\Public\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform\GLFW\GLFWPlatformWindow.h">
+      <Filter>Runtime\Core\Public\Platform\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform\PlatformWindow.h">
+      <Filter>Runtime\Core\Public\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform\UIPlatform.h">
+      <Filter>Runtime\Core\Public\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform\UIWindowDesc.h">
+      <Filter>Runtime\Core\Public\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Platform\Window.h">
+      <Filter>Runtime\Core\Public\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\FontRenderer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\Renderer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\Shader.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\ShaderSources.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\Shaders.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIBuffer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIFont.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIFontRenderer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIIndexBuffer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIRenderContext.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIRenderPrimitives.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIRenderTarget.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIRenderer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIShader.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIShaderDataType.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIShaderManager.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIShaderSources.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIShaderTypes.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UITexture.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIVertexArray.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Renderer\UIVertexBuffer.h">
+      <Filter>Runtime\Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Theme\UIAnimation.h">
+      <Filter>Runtime\Core\Public\Theme</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Theme\UITheme.h">
+      <Filter>Runtime\Core\Public\Theme</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils\RobotoRegular.h">
+      <Filter>Runtime\Core\Public\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils\ShaderSources.h">
+      <Filter>Runtime\Core\Public\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Utils\ShaderUtils.h">
+      <Filter>Runtime\Core\Public\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UIContainer.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UIDialog.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UIDockingSystem.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UIElement.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UILayoutConstraints.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UIPropertyEditors.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UISlot.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Widget\UIWidget.h">
+      <Filter>Runtime\Core\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\Source\Runtime\Core\Public\Window\Window.h">
+      <Filter>Runtime\Core\Public\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Windsurf\The-No-hands-Company\projects\Playground\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Runtime">
+      <UniqueIdentifier>{69668E50-DD50-37B0-9075-6377B994C1BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core">
+      <UniqueIdentifier>{480E0C7C-68D2-3C78-8B0C-E59FFFFD7A90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private">
+      <UniqueIdentifier>{C7C0C23D-DF4A-3DA6-B00D-D711798BD2BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Core">
+      <UniqueIdentifier>{6BF3BEAB-0D93-3E3A-BAED-560EFFECA86A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Input">
+      <UniqueIdentifier>{BB1DB032-3CDA-35BC-AF28-AB1AC2D2668A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Layout">
+      <UniqueIdentifier>{8F525C06-7BA4-3C62-9DFD-B75977F08E90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Platform">
+      <UniqueIdentifier>{3F85DEEB-048E-3261-B60C-4C9CE2FB8C86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Platform\GLFW">
+      <UniqueIdentifier>{177EBC7D-6C8F-347A-A8DC-7C373EE233E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Renderer">
+      <UniqueIdentifier>{208FD8E9-0671-325E-97A0-86C0FC232250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Private\Widget">
+      <UniqueIdentifier>{5862E7CA-CE74-3CD8-9BB9-65414B6B27B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public">
+      <UniqueIdentifier>{D47CCDE1-8943-3BAB-B3FD-1F6167A08589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Base">
+      <UniqueIdentifier>{70E3E5EC-F925-3FAE-8547-CAC9229FEFBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Core">
+      <UniqueIdentifier>{B73F59D0-0534-3F68-97A2-01D9EBA7A87E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Events">
+      <UniqueIdentifier>{F33674D9-625F-3157-9A88-E546050064CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Input">
+      <UniqueIdentifier>{40E99B64-7677-3E3F-9286-C702DFCC47EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Layout">
+      <UniqueIdentifier>{02F8C4B4-A952-392E-911E-FEC742C2E633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Platform">
+      <UniqueIdentifier>{C2FBE3C2-5327-359C-8CC3-FD3B312DBC65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Platform\GLFW">
+      <UniqueIdentifier>{1BBB7AFC-8DD9-3EBA-ACB1-7D6646CF27B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Renderer">
+      <UniqueIdentifier>{A9910CC5-D83F-34DF-99C2-46B3A208F8D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Theme">
+      <UniqueIdentifier>{05905F3E-30D0-31D5-B59A-111337189F9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Utils">
+      <UniqueIdentifier>{7C6BD66E-6A71-3994-A633-3274C81628F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Widget">
+      <UniqueIdentifier>{5F2B9764-63A2-356D-A1B8-54C6D250BC5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime\Core\Public\Window">
+      <UniqueIdentifier>{5FED38D9-E802-3F40-8717-CFCA7F1609B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
