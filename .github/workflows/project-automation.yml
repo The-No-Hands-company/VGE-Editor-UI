@@ -1,0 +1,34 @@
+name: Project Board Automation
+
+on:
+  issues:
+    types: [opened, reopened, closed]
+  pull_request:
+    types: [opened, reopened, closed]
+
+jobs:
+  project_automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.5.0
+        with:
+          project-url: https://github.com/orgs/The-No-Hands-company/projects/1
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          labeled: bug, enhancement, documentation
+          label-operator: OR
+      
+      - name: Move Issue to Column
+        if: github.event_name == 'issues'
+        uses: alex-page/github-project-automation-plus@v0.8.3
+        with:
+          project: VersaUI Development
+          column: ${{ github.event.action == 'opened' && 'To do' || 'Done' }}
+          repo-token: ${{ secrets.PROJECT_TOKEN }}
+
+      - name: Move PR to Column
+        if: github.event_name == 'pull_request'
+        uses: alex-page/github-project-automation-plus@v0.8.3
+        with:
+          project: VersaUI Development
+          column: ${{ github.event.action == 'opened' && 'In Progress' || 'Done' }}
+          repo-token: ${{ secrets.PROJECT_TOKEN }} 

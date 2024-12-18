@@ -1,0 +1,51 @@
+name: Bug Report
+description: Create a report to help us improve
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of VersaUI are you using?
+      placeholder: "e.g., 0.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which component is affected?
+      options:
+        - Widget System
+        - Layout Engine
+        - Theme System
+        - Event System
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the bug
+      placeholder: "When I..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Create widget '...'
+        2. Set property '...'
+        3. See error
+    validations:
+      required: true 

@@ -1,0 +1,60 @@
+name: Feature Discussion
+description: Start a discussion about a potential feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start a community discussion about a potential feature or enhancement.
+        This is a place for brainstorming and gathering feedback before creating a formal proposal.
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Discussion Stage
+      options:
+        - Initial Idea
+        - Early Feedback
+        - Design Discussion
+        - Implementation Planning
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: Briefly describe your idea
+      placeholder: "I think it would be great if..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: What problems would this solve?
+      placeholder: |
+        1. When building UI for...
+        2. Users need to...
+        3. This would help with...
+
+  - type: textarea
+    id: discussion_points
+    attributes:
+      label: Discussion Points
+      description: What aspects need community input?
+      placeholder: |
+        - Technical approach?
+        - API design?
+        - Performance considerations?
+        - Integration concerns?
+
+  - type: checkboxes
+    id: considerations
+    attributes:
+      label: Initial Considerations
+      options:
+        - label: Impact on existing features
+        - label: Backward compatibility
+        - label: Performance implications
+        - label: Documentation needs 
